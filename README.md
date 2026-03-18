@@ -69,7 +69,9 @@ Frontend: React with Hooks (client-side rendering)
 No use of Mongoose, Axios, CORS, or template engines
 
 
-# Prerequisites
+# Instructions to build
+
+## Prerequisites
 
 Node.js 18+
 
@@ -78,7 +80,7 @@ npm 9+
 MongoDB Atlas or local MongoDB instance
 
 
-# Installation
+## Installation
 ```
 git clone <this-repo-url>
 
@@ -86,7 +88,7 @@ cd WatchCircle
 
 npm install
 ```
-# Environment Variables
+## Environment Variables
 Create .env from .env.example:
 ```
 bashcp .env.example .env
@@ -98,7 +100,7 @@ PORT=3000
 ```
 
 
-# Run Locally
+## Run Locally
 Start production mode:
 ```
 npm start
@@ -113,7 +115,7 @@ http://localhost:3000
 ```
 
 
-# Linting and Formatting
+## Linting and Formatting
 ```
 npm run lint
 npm run format
